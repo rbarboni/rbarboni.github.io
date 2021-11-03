@@ -6,7 +6,7 @@ permalink: /about/
 
 ### Education
 
-I'm a student at the [Department of Mathematics and Applications][DMA] of [ENS Ulm][ENS] in Paris. I graduated this year from a Msc. in Machine Learning and Data Science (["Mathématique, Vision, Apprentissage"][MVA]) at Paris-Saclay University.
+I'm a student at the [Department of Mathematics and Applications][DMA] of [\'ENS Ulm][ENS] in Paris. I graduated this year from a Msc. in Machine Learning and Data Science (["Mathématique, Vision, Apprentissage"][MVA]) at Paris-Saclay University.
 
 You can take a look at my [CV](/CV_english_RBarboni.pdf "English CV") !
 
