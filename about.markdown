@@ -4,10 +4,18 @@ title: About
 permalink: /about/
 ---
 
-I'm a student at the [Department of Mathematics and Applications][DMA] of [ENS Ulm][ENS] in Paris. I graduated this year from a Msc. in Machine Learning and Data Science (["Mathématique, Vision, Apprentissage"][MVA]) at Paris-Saclay University. 
+### Education
 
-###Research Interests
-I'm currently working under the supervision of [Gabriel Peyré][gpeyre] and [François-Xavier Vialard][fxvialard] on the mathematical properties of Deep Neural Networks. This work is taking place in the [Noria][noria] ERC project.
+I'm a student at the [Department of Mathematics and Applications][DMA] of [ENS Ulm][ENS] in Paris. I graduated this year from a Msc. in Machine Learning and Data Science (["Mathématique, Vision, Apprentissage"][MVA]) at Paris-Saclay University.
+
+You can take a look at my [CV](/CV_english_RBarboni.pdf "English CV") !
+
+### Research Interests
+
+I'm currently working under the supervision of [Gabriel Peyré][gpeyre] and [François-Xavier Vialard][fxvialard]. We study the mathematical properties of Deep Neural Networks and aim at explaining their good performances. This work is a part of the [Noria][noria] ERC project.
+
+In a broader picture, I'm interested in Data Sciences as it offers a variety of (often yet unsolved) mathematical problems lying at the intersection between analysis, probability and algebra.
+
 
 [DMA]: http://www.math.ens.fr/
 [ENS]: https://www.ens.psl.eu/
