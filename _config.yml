@@ -28,7 +28,7 @@ twitter_username: BarboniRaphael
 github_username:  rbarboni
 
 # Build settings
-theme: minimal
+theme: minima
 plugins:
   - jekyll-feed
 
