@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a student at the [Department of Mathematics and Applications][DMA] of [ENS Ulm][ENS] in Paris. I graduated this year from a Msc. in Machine Learning and Data Science (["Mathématique, Vision, Apprentissage"][MVA]) at Paris-Saclay University. I'm currently working under the supervision of [Gabriel Peyré][gpeyre] and [François-Xavier Vialard][fxvialard] on the mathematical properties of Deep Neural Networks. This work is taking place in the [Noria][noria] ERC project.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[DMA]: http://www.math.ens.fr/
+[ENS]: https://www.ens.psl.eu/
+[MVA]: https://www.master-mva.com/
+[gpeyre]: http://www.gpeyre.com/
+[fxvialard]: http://angkor.univ-mlv.fr/~vialard/
+[noria]: http://www.gpeyre.com/noria/
