@@ -4,4 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-This page is still empty but I hope to share my work soon.
+## Preprints
+
+- ["Global convergence of ResNets: From finite to infinite  
+  width using linear parameterization"](https://hal.archives-ouvertes.fr/hal-03473699/document), R.Barboni, G.Peyré, F.-X.Vialard, Dec. 2021
