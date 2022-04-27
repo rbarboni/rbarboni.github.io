@@ -8,7 +8,7 @@ This page aims at sharing some of the projects I worked on during my studies.
 
 ### My Thesis project
 
-- ["Convergence and Implicit biases of Deep Residual Networks"](/Projet_these.pdf)
+- ["Convergence and Implicit biases of Deep Residual Networks" (french)](/Projet_these.pdf)
   
   This PhD Thesis will be supervised by G.Peyré and F-X.Vialard.
 
