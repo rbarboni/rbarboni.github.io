@@ -21,7 +21,7 @@
 title: Raphaël Barboni
 email: raphael[dot]barboni[at]ens.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Raphaël Barboni's personal webpage. I'm a student PhD in Mathematics at ENS Ulm in Paris, focusing on the mathematics of Machine Learning and Data Science.
+  This is Raphaël Barboni's personal webpage. I'm a PhD student in Mathematics at ENS Ulm in Paris, focusing on the mathematics of Machine Learning and Data Science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rbarboni.githu.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BarboniRaphael
