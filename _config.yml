@@ -28,8 +28,6 @@ url: "https://rbarboni.github.io" # the base hostname & protocol for your site, 
 twitter_username: BarboniRaphael
 github_username:  rbarboni
 
-google_analytics: UA-NNNNNNNN-N
-
 
 # Build settings
 theme: minima
