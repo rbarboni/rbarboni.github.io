@@ -5,13 +5,13 @@
 layout: home
 ---
 
-I'm a PhD student at the [Department of Mathematics and Applications][DMA] of [ENS Ulm][ENS] in Paris. I graduated this year from a M.Sc. in Machine Learning and Data Science (["Mathématiques, Vision, Apprentissage"][MVA]) at Université Paris-Saclay.
+I'm a PhD student at the [Department of Mathematics and Applications][DMA] of [ENS Ulm][ENS] in Paris, working under the supervision of [Gabriel Peyré][gpeyre] and [François-Xavier Vialard][fxvialard]. This work is part of the [Noria][noria] ERC project.
 
 ## Research Interests
 
-I'm currently working under the supervision of [Gabriel Peyré][gpeyre] and [François-Xavier Vialard][fxvialard]. We study the mathematical properties of Deep Neural Networks and aim at explaining their good performances in supervised learning tasks. This work is part of the [Noria][noria] ERC project.
+My research field is **Machine Learning** and I study the theoretical properties of neural networks, more particularly deep ResNets. I use tools from the theory of optimization, Optimal Control and Optimal Transport to study the convergence of gradient based algorithm in the training of neural networks.
 
-In a broader picture, I'm interested in Machine Learning and Data Science as it offers a variety of (often unsolved) mathematical problems, lying at the intersection between various fields of mathematics.
+In a broader picture, I'm interested in Machine Learning and Data Science as it offers a variety of mathematical problems, lying at the intersection between various fields of mathematics.
 
 [DMA]: http://www.math.ens.fr/
 [ENS]: https://www.ens.psl.eu/
