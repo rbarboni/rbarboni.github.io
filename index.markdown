@@ -15,7 +15,6 @@ In a broader picture, I'm interested in Machine Learning and Data Science as it 
 
 [DMA]: http://www.math.ens.fr/
 [ENS]: https://www.ens.psl.eu/
-[MVA]: https://www.master-mva.com/
 [gpeyre]: http://www.gpeyre.com/
 [fxvialard]: http://angkor.univ-mlv.fr/~vialard/
 [noria]: http://www.gpeyre.com/noria/
