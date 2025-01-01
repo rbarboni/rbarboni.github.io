@@ -8,10 +8,16 @@ Jekyll documentation: [Quickstart | Jekyll • Simple, blog-aware, static sites]
 
 Compile the webpage locally **before** commiting changes to git ! To do so:
 
+- Be sure to use the correct version of ruby:
+  
+  ```
+  rvm 3.2.3
+  ```
+
 - (optional) if not compiled for some time:
   
   ```
-  undle update github-pages
+  bundle update
   ```
 
 - Then to create local link:
@@ -36,5 +42,3 @@ pdflatex CV_english_RBarboni.tex
 ```
 
 More info available here: http://randyklabacka.com/2020/07/02/LaTeX_CreateModernCV.html
-
-

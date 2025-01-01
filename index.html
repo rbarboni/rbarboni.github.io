@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="wrapper-main">
+	<div id="main" role="main" class="container">
+  	<p>I’m a 3rd year PhD student at the <a href="http://www.math.ens.fr/">Department of Mathematics and Applications</a> of <a href="https://www.ens.psl.eu/">ENS Ulm</a> in Paris, working under the supervision of <a href="http://www.gpeyre.com/">Gabriel Peyré</a> and <a href="http://angkor.univ-mlv.fr/~vialard/">François-Xavier Vialard</a>. This work is part of the <a href="http://www.gpeyre.com/noria/">Noria</a> and <a href="http://www.gpeyre.com/wolf/">Wolf</a> ERC projects.</p>
+
+		<h1>Research Interests</h1>
+
+		<p>My research field is theoretical Machine Learning: I study the mathematical properties of large-scale algorithms for solving problems in optimization, sampling and learning. In my PhD I use tools from the theory of optimization, optimal control and optimal transport to study the convergence of gradient based algorithm in the training of overparameterized neural network architectures such as deep ResNets.</p>
+
+		<p>In a broader picture, I’m interested in the mathematics of Machine Learning and Data Science because one can find there a variety of open problems lying at the intersection between various fields of mathematics and with practical real-world applications.</p>
+
+	</div>
+</div>
+
+<div class="posts">
+	<h1>Posts and news</h1>
+  {% for post in paginator.posts %}
+    <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h2>{{ post.title }}</h2>
+
+        <div>
+          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+        </div>
+      </a>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+
+  <!-- pagination -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>

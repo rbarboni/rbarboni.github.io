@@ -1,0 +1,208 @@
+% !TeX spellcheck = en_US
+\documentclass[11pt,a4paper,sans]{moderncv}      
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sdefault}         
+% to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+
+\usepackage[utf8]{inputenc}  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[english]{babel}
+\usepackage[inline]{enumitem}
+\setlist[itemize]{label=\textbullet}
+
+\usepackage[backend=biber, style=authoryear, sorting=ydnt, maxbibnames=99]{biblatex} % bibliography
+\setlength{\bibitemsep}{0.5cm}
+\usepackage{tabto} % spacing package 
+
+\addbibresource{CV_publications.bib}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{misc}{{Preprints}}
+
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{comment}
+
+% adjust the page margins
+\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm]{geometry}
+%\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{2.4cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Raphaël}
+\lastname{Barboni}
+\title{PhD candidate} 
+\address{45 rue d'Ulm}{75005 Paris}{France}
+%\phone[mobile]{+33~(0)6~83~32~77~80}                    
+\email{raphael.barboni@ens.fr}
+\homepage{rbarboni.github.io}
+
+\begin{document}
+
+\makecvtitle
+
+
+% Marge négative entre le titre et la partie expérience, pour gagner de la place
+%\vspace*{-1\baselineskip}
+
+\section{Education}
+\cventry{Since 2022}{PhD candidate}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}{``Convergence and implicit bias of deep Residual Neural Networks'', supervised by \textbf {G.~Peyré} and \textbf{F-X.~Vialard}}
+
+\cventry{2018 -- 2022}{``\'Elève fonctionnaire stagiaire''}{\'Ecole Normale Supérieure -- PSL}{Paris}{France}{Department of Mathematics (DMA)}
+
+\cventry{2020--2021}{M.Sc. Mathematics for Machine Learning and Data Science (MVA)}{\'ENS Paris-Saclay}{}{}
+{
+\textbf{Thesis}: \textit{``Convergence properties of Gradient Descent in the training of Deep Residual Networks''} \\ (supervised by G.\,Peyré and F-X.\,Vialard)
+}
+
+
+\begin{comment}
+
+{
+	\begin{itemize}
+		\item 1st Semester : Computational optimal transport, Stochastic Differential Equations, Numerical imaging, Dynamical systems and stochastic models in neuroscience, Medical image analysis,
+		\item 2nd Semester : Random matrix theory, Sparse representation theory, Geometry in the space of shapes, Inverse problems in imaging, PDEs for image analysis,
+		\item \textbf{Projects :} Sliced Wasserstein flow and diffusion processes, Wasserstein barycenter and applications to texture mixing,
+		\item \textbf{Master thesis} : \textit{``Convergence properties of Gradient Descent in the training of Deep Residual Networks''} (supervised by G.\,Peyré and F-X.\,Vialard).
+	\end{itemize}
+}
+
+
+\cventry{2019--2020}{First year of Master degree in mathematics}{\'ENS Ulm}{}{}
+{
+%\begin{itemize}
+    %\item 1st Semester : Stochastic processes and Markov chains, Elliptic PDEs, Dynamical systems and ergodic theory,
+    %\item 2nd Semester : Stochastic calculus, Optimal transport and applications in kinetic theory,
+    %\item \textbf{Project} : optimization with cardinality constraints for the adjustment of electricity production,
+    %\item \textbf{Workshop} : \textit{``Spectral theory in quantum mechanics''} (E.Séré).
+    %\item \'Economie : théories de la croissance, économie des entreprises dans les pays émergents.
+%\end{itemize}
+}
+\end{comment}
+
+\cventry{2018--2019}{Bachelor degree in mathematics}{\'Ecole Normale Supérieure -- PSL}{Paris}{with honors}
+{
+    \textbf{Thesis}: \textit{``Mean curvature flow, an introduction to geometrical flows''} (supervised by T.\,Ozuch)
+}
+
+\cventry{2016--2018}{Scientific preparation for competitive exams}{Lycée Henri IV}{Paris}{}
+{Mathematics, Physics, Computer science (MPSI-MP*)}
+%{MPSI then MP*, optional courses in computer science}
+
+%\cventry{2016}{Scientific Baccalauréat}{Lycée Marie Curie}{Sceaux}{with honors}{German as european option}
+
+
+\section{Research internships}
+
+\cventry{2022}{Statistical to computational gaps in Tensor PCA}{ETH, Mathematic Department}{Zürich}{supervised by \textbf{A.Bandeira}}
+{
+	%Theoretical guarantees for polynomial time algorithms in Tensor PCA.
+}
+
+\cventry{2021}{Convergence and Implicit biases in training Deep Residual Networks}{\'ENS DMA - CNRS}{Paris}{supervised by \textbf{G.Peyré} and \textbf{F-X.Vialard}}
+{
+	%Convergence properties of Gradient Descent in the training of Deep Residual Networks.
+}
+
+\cventry{2020}{Hydrodynamical models for red tides phenomena in Quell\'on's bay}{Center for Mathematical Modeling (CMM) - CNRS}{Santiago, Chile}{supervised by \textbf{C.Conca}}
+{
+	%Numerical models for Navier-Stokes equations. Interrupted due to the Covid pandemic.
+}
+
+\section{Teaching}
+\cventry{Since 2021}{Teaching assistant}{Paris Science Lettres (PSL)}{Paris}{}
+{
+``Cycle Pluridisciplinaire d'\'Etudes Supérieure'' (CPES), undergrad.
+}
+
+\cventry{2018--2022}{Preparation for oral exams}{Lycée Henri IV}{Paris}{}
+{
+%Questioning students on mathematical exercises (``colles'')
+}
+
+
+\section{Publications}
+
+\begin{refsection}[CV_publications.bib]
+	\nocite{*}
+	\printbibliography[heading=none]
+\end{refsection}
+
+\clearpage
+
+\section{Skills}
+
+\setlength{\columnsep}{80pt}
+\begin{multicols}{2}
+	
+	\subsection{Programming}
+	\cvitemwithcomment{Python}{Scientific computing and machine learning}{}
+	\cvitemwithcomment{Github}{Developping open source code}{}
+	%\cvitemwithcomment{Office}{Office suite, Latex}{}
+	
+	\vfill\null
+	\columnbreak
+	
+	\subsection{Languages}
+	\cvlanguage{French}{Mother tongue}{}
+	\cvlanguage{English, German}{Professional skills}{}
+	%\cvlanguage{Spanish}{Beginner}{}
+	
+\end{multicols}
+
+\section{Conferences}
+
+\subsection{Oral presentation}
+
+\begin{itemize}
+	\item SIGMA (Signal-Image-Geometry-Modeling-Approximation), June 2024, Luminy, France,
+	\item PDE Methods in Machine Learning (Birs event), June 2024, Granada, Spain.
+\end{itemize}
+
+\subsection{Poster presentation}
+
+\begin{itemize}
+	\item Learning and Optimization in Luminy, June 2024, Luminy, France,
+	\item Workshop on  Optimal Transport, from Theory to Applications, March 2024, Berlin, Germany,
+	\item Conference on Neural Information Processing Systems (Neurips), November 2022, New Orleans, USA,
+	\item International Conference on Curves and Surfaces, June 2022, Arcachon, France.
+\end{itemize}
+
+
+
+%\nocitemisc{*}
+%\bibliographystylemisc{siam}
+%\bibliographymisc{CV_publications}
+
+%\clearpage
+
+\begin{comment}
+
+\section{Community life}
+\cventry{2019--2021}{Confer'ENS Ulm}{}{}{}
+{
+Students' forum, canvassing speakers, preparing interviews
+}
+
+\cventry{2019}{Member of the \'ENS Students' Office}{}{}{}
+{
+Scheduling artistic events, organizing associative events
+}
+
+\section{Hobbies}
+\cvitem{Track \& Field}{I do Pole Vault, my personal best is 4.20m.}
+\cvitem{Mountain sports}{Hiking, climbing, skiing and traveling}
+\cvitem{Guitar}{Spanish and South-american music}
+
+\clearpage
+
+\end{comment}
+
+
+\end{document}
+
+
