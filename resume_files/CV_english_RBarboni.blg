@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'CV_english_RBarboni.blg'
-[84] biber:340> INFO - === jeu. déc. 19, 2024, 17:43:16
-[112] Biber.pm:418> INFO - Reading 'CV_english_RBarboni.bcf'
-[173] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[173] Biber.pm:969> INFO - Using all citekeys in bib section 1
-[173] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[190] Biber.pm:4383> INFO - Processing section 1
-[204] Biber.pm:4574> INFO - Looking for bibtex file 'CV_publications.bib' for section 1
-[205] bibtex.pm:1713> INFO - LaTeX decoding ...
-[208] bibtex.pm:1518> INFO - Found BibTeX data source 'CV_publications.bib'
-[258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[258] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[258] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[261] bbl.pm:654> INFO - Writing 'CV_english_RBarboni.bbl' with encoding 'UTF-8'
-[263] bbl.pm:757> INFO - Output to CV_english_RBarboni.bbl
+[76] biber:340> INFO - === jeu. janv.  9, 2025, 19:01:19
+[92] Biber.pm:418> INFO - Reading 'CV_english_RBarboni.bcf'
+[151] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[151] Biber.pm:969> INFO - Using all citekeys in bib section 1
+[151] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[168] Biber.pm:4383> INFO - Processing section 1
+[181] Biber.pm:4574> INFO - Looking for bibtex file 'CV_publications.bib' for section 1
+[181] bibtex.pm:1713> INFO - LaTeX decoding ...
+[184] bibtex.pm:1518> INFO - Found BibTeX data source 'CV_publications.bib'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[233] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[233] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[236] bbl.pm:654> INFO - Writing 'CV_english_RBarboni.bbl' with encoding 'UTF-8'
+[237] bbl.pm:757> INFO - Output to CV_english_RBarboni.bbl

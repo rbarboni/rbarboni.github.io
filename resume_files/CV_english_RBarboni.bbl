@@ -53,7 +53,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{(journal submission)}
+      \field{journaltitle}{submitted to Communications in Pure and Applied Mathematics (CPAM), under minor revision}
       \field{title}{Understanding the training of infinitely deep and wide ResNets with Conditional Optimal Transport}
       \field{year}{2024}
       \true{nocite}
