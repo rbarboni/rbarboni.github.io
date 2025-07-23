@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>CV_english_RBarboni.bcf</file>
@@ -54,8 +54,9 @@
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
-      <file>authoryear.bbx</file>
-      <file>authoryear.cbx</file>
+      <file>authortitle.bbx</file>
+      <file>verbose.bbx</file>
+      <file>verbose.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>

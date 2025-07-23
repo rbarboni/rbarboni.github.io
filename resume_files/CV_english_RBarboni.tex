@@ -1,8 +1,8 @@
 % !TeX spellcheck = en_US
 \documentclass[11pt,a4paper,sans]{moderncv}      
 % moderncv themes
-\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 %\renewcommand{\familydefault}{\sdefault}         
 % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 
@@ -12,7 +12,7 @@
 \usepackage[inline]{enumitem}
 \setlist[itemize]{label=\textbullet}
 
-\usepackage[backend=biber, style=authoryear, sorting=ydnt, maxbibnames=99]{biblatex} % bibliography
+\usepackage[backend=biber, style=verbose, sorting=ydnt, maxbibnames=99, dashed=false]{biblatex} % bibliography
 \setlength{\bibitemsep}{0.5cm}
 \usepackage{tabto} % spacing package 
 
@@ -50,7 +50,8 @@
 %\vspace*{-1\baselineskip}
 
 \section{Education}
-\cventry{Since 2022}{PhD candidate}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}{``Convergence and implicit bias of deep Residual Neural Networks'', supervised by \textbf {G.~Peyré} and \textbf{F-X.~Vialard}}
+
+\cventry{2022 -- 2025}{PhD candidate}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}{``Convergence and implicit bias of deep Residual Neural Networks'', supervised by \textbf {G.~Peyré} and \textbf{F.-X.~Vialard}}
 
 \cventry{2018--2022}{``\'Elève fonctionnaire stagiaire''}{\'Ecole Normale Supérieure -- PSL}{Paris}{France}{Department of Mathematics (DMA)}
 
@@ -60,77 +61,43 @@
 }
 
 
-\begin{comment}
-
-{
-	\begin{itemize}
-		\item 1st Semester : Computational optimal transport, Stochastic Differential Equations, Numerical imaging, Dynamical systems and stochastic models in neuroscience, Medical image analysis,
-		\item 2nd Semester : Random matrix theory, Sparse representation theory, Geometry in the space of shapes, Inverse problems in imaging, PDEs for image analysis,
-		\item \textbf{Projects :} Sliced Wasserstein flow and diffusion processes, Wasserstein barycenter and applications to texture mixing,
-		\item \textbf{Master thesis} : \textit{``Convergence properties of Gradient Descent in the training of Deep Residual Networks''} (supervised by G.\,Peyré and F-X.\,Vialard).
-	\end{itemize}
-}
-
-
-\cventry{2019--2020}{First year of Master degree in mathematics}{\'ENS Ulm}{}{}
-{
-%\begin{itemize}
-    %\item 1st Semester : Stochastic processes and Markov chains, Elliptic PDEs, Dynamical systems and ergodic theory,
-    %\item 2nd Semester : Stochastic calculus, Optimal transport and applications in kinetic theory,
-    %\item \textbf{Project} : optimization with cardinality constraints for the adjustment of electricity production,
-    %\item \textbf{Workshop} : \textit{``Spectral theory in quantum mechanics''} (E.Séré).
-    %\item \'Economie : théories de la croissance, économie des entreprises dans les pays émergents.
-%\end{itemize}
-}
-\end{comment}
-
 \cventry{2018--2019}{Bachelor degree in mathematics}{\'Ecole Normale Supérieure -- PSL}{Paris}{with honors}
 {
     \textbf{Thesis}: \textit{``Mean curvature flow, an introduction to geometrical flows''} (supervised by T.\,Ozuch)
 }
 
-\cventry{2016--2018}{Scientific preparation for competitive exams}{Lycée Henri IV}{Paris}{}
-{Mathematics, Physics, Computer science (MPSI-MP*)}
+%\cventry{2016--2018}{Scientific preparation for competitive exams}{Lycée Henri IV}{Paris}{}
+%{Mathematics, Physics, Computer science (MPSI-MP*)}
 %{MPSI then MP*, optional courses in computer science}
 
 %\cventry{2016}{Scientific Baccalauréat}{Lycée Marie Curie}{Sceaux}{with honors}{German as european option}
 
-
-\section{Research internships}
-
-\cventry{2022}{Statistical to computational gaps in Tensor PCA}{ETH, Mathematic Department}{Zürich}{supervised by \textbf{A.~Bandeira}}
-{
-	%Theoretical guarantees for polynomial time algorithms in Tensor PCA.
-}
-
-\cventry{2021}{Convergence and Implicit biases in training Deep Residual Networks}{\'ENS DMA - CNRS}{Paris}{supervised by \textbf{G.~Peyré} and \textbf{F-X.~Vialard}}
-{
-	%Convergence properties of Gradient Descent in the training of Deep Residual Networks.
-}
-
-\cventry{2020}{Hydrodynamical models for red tides phenomena in Quell\'on's bay}{Center for Mathematical Modeling (CMM) - CNRS}{Santiago, Chile}{supervised by \textbf{C.~Conca}}
-{
-	%Numerical models for Navier-Stokes equations. Interrupted due to the Covid pandemic.
-}
-
 \section{Teaching}
 \cventry{Since 2021}{Teaching assistant}{Paris Science Lettres (PSL)}{Paris}{}
 {
-``Cycle Pluridisciplinaire d'\'Etudes Supérieure'' (CPES), undergrad.
+	``Cycle Pluridisciplinaire d'\'Etudes Supérieure'' (CPES), undergrad.
 }
 
-\cventry{2018--2022}{Preparation for oral exams}{Lycée Henri IV}{Paris}{}
-{
-%Questioning students on mathematical exercises (``colles'')
-}
+\cventry{2018--2022}{Preparation for oral exams}{Lycée Henri IV}{Paris}{}{}
 
 
 \section{Publications}
 
-\begin{refsection}[CV_publications.bib]
-	\nocite{*}
-	\printbibliography[heading=none]
-\end{refsection}
+%\begin{refsection}[CV_publications.bib]
+\nocite{*}
+\subsection{Published}
+\printbibliography[keyword={published}, heading=none]
+\subsection{Preprints}
+\printbibliography[keyword={preprint}, heading=none]
+%\end{refsection}
+
+\section{Internships}
+
+\cventry{2022}{Statistical to computational gaps in Tensor PCA}{ETH, Mathematic Department}{Zürich}{supervised by \textbf{A.~Bandeira}}{}
+
+\cventry{2021}{Convergence and Implicit biases in training Deep Residual Networks}{\'ENS DMA - CNRS}{Paris}{supervised by \textbf{G.~Peyré} and \textbf{F-X.~Vialard}}{}
+
+\cventry{2020}{Hydrodynamical models for red tides phenomena in Quell\'on's bay}{Center for Mathematical Modeling (CMM) - CNRS}{Santiago, Chile}{supervised by \textbf{C.~Conca}}{}
 
 \clearpage
 
@@ -142,7 +109,6 @@
 	\subsection{Programming}
 	\cvitemwithcomment{Python}{Scientific computing and machine learning}{}
 	\cvitemwithcomment{Github}{Developing open source code}{}
-	%\cvitemwithcomment{Office}{Office suite, Latex}{}
 	
 	\vfill\null
 	\columnbreak
@@ -150,7 +116,6 @@
 	\subsection{Languages}
 	\cvlanguage{French}{Native language}{}
 	\cvlanguage{English}{Professional skills}{}
-	%\cvlanguage{Spanish}{Beginner}{}
 	
 \end{multicols}
 
@@ -159,6 +124,7 @@
 \subsection{Oral presentation}
 
 \begin{itemize}
+	\item IWOTA (International Workshop on Operator Theory), July 2025, Twente, Netherlands,
 	\item SIGMA (Signal-Image-Geometry-Modeling-Approximation), June 2024, Luminy, France,
 	\item PDE Methods in Machine Learning (Birs event), June 2024, Granada, Spain.
 \end{itemize}
@@ -175,33 +141,7 @@
 
 
 
-%\nocitemisc{*}
-%\bibliographystylemisc{siam}
-%\bibliographymisc{CV_publications}
 
-%\clearpage
-
-\begin{comment}
-
-\section{Community life}
-\cventry{2019--2021}{Confer'ENS Ulm}{}{}{}
-{
-Students' forum, canvassing speakers, preparing interviews
-}
-
-\cventry{2019}{Member of the \'ENS Students' Office}{}{}{}
-{
-Scheduling artistic events, organizing associative events
-}
-
-\section{Hobbies}
-\cvitem{Track \& Field}{I do Pole Vault, my personal best is 4.20m.}
-\cvitem{Mountain sports}{Hiking, climbing, skiing and traveling}
-\cvitem{Guitar}{Spanish and South-american music}
-
-\clearpage
-
-\end{comment}
 
 
 \end{document}
