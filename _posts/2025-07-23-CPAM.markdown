@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Paper accepted at CPAM"
+date:   2025-07-23 10:58:50 +0100
+categories: jekyll update
+---
+
+I am very proud to announce that our paper on ["Understanding the training of infinitely deep and wide ResNets with Conditional Optimal Transport"](https://doi.org/10.1002/cpa.70004) has been accepted for publication in *Communications on Pure and Applied Mathematics*.
+
+In this paper we develop a mathematical framework based on *Conditional Optimal Transport*, a variant of the classical Optimal Transport problem, to obtain convergence results for the training of deep ResNets with gradient descent.
+

@@ -4,17 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
-This page aims at sharing some of the projects I worked on during my studies.
+Here are some projects I worked on during my studies.
 
-### My Thesis project
+### My PhD Thesis
 
 - ["Convergence and Implicit biases of Deep Residual Networks" (french)](/Projet_these.pdf)
   
-  This PhD Thesis will be supervised by G.Peyré and F-X.Vialard.
+  This PhD Thesis was supervised by G.Peyré and F-X.Vialard.
 
 ### Research internship report
 
-- In 2022, I performed a research internship at ETH Zürich under supervision of [Pr. A. Bandeira](https://people.math.ethz.ch/~abandeira/). I studied statistical properties of random "Kikuchi" matrices (details to come).
+- In 2022, I did a research internship at ETH Zürich under supervision of [Pr. A. Bandeira](https://people.math.ethz.ch/~abandeira/). I studied statistical properties of random "Kikuchi" matrices (details to come).
 * ["Convergence and Geometric properties of Gradient Descent in the training of Deep Residual Networks"](/Internship_Report.pdf)  
   This work was carried out as a part of my Master's research internship, under supervision of G.Peyré and F-X.Vialard. We studied mathematical properties of the optimization methods in the training of deep Neural Networks.
 
