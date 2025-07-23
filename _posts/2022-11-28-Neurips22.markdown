@@ -2,7 +2,6 @@
 layout: post
 title:  "Neurips 2022"
 date:   2022-11-28 10:58:50 +0100
-categories: jekyll update
 ---
 
 I'll be attending in person to the 36th Neurips conference in New Orleans, and will have the opportunity to present my work about ["Global convergence of ResNets"](https://arxiv.org/abs/2112.05531).
