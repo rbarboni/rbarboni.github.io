@@ -32,14 +32,21 @@
 \setlength{\hintscolumnwidth}{2.4cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
+
+
 % personal data
 \firstname{Raphaël}
 \lastname{Barboni}
-\title{PhD candidate} 
-\address{45 rue d'Ulm}{75005 Paris}{France}
+\title{Postodoctoral fellow, Bocconi University} 
+\address{Milan, Italy}{}{}
 %\phone[mobile]{+33~(0)6~83~32~77~80}                    
-\email{raphael.barboni@ens.fr}
+\email{raphael.barboni@unibocconi.it}
 \homepage{rbarboni.github.io}
+
+% supposed to add scholar image but does not work
+
+%\newcommand*{\scholarsocialsymbol}{\includegraphics[height=0.1\baselineskip]{google-scholar.pdf}}
+%\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=tEu2ONgAAAAJ}{Scholar}}
 
 \begin{document}
 
@@ -49,21 +56,30 @@
 % Marge négative entre le titre et la partie expérience, pour gagner de la place
 %\vspace*{-1\baselineskip}
 
+\section{Positions}
+
+\cventry{2025 -- now}{Postdoctoral fellow}{Bocconi University, Institute for Data Science and Analytics (BIDSA)}{Milan}{}{mentored by \textbf{G.~Zanella}.}
+
 \section{Education}
 
-\cventry{2022 -- 2025}{PhD candidate}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}{``Convergence and implicit bias of deep Residual Neural Networks'', supervised by \textbf {G.~Peyré} and \textbf{F.-X.~Vialard}}
-
-\cventry{2018--2022}{``\'Elève fonctionnaire stagiaire''}{\'Ecole Normale Supérieure -- PSL}{Paris}{France}{Department of Mathematics (DMA)}
-
-\cventry{2020--2021}{M.Sc. Mathematics for Machine Learning and Data Science (MVA)}{\'ENS Paris-Saclay}{}{with honors}
+\cventry{2022 -- 2025}{PhD}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}
 {
-\textbf{Thesis}: \textit{``Convergence properties of Gradient Descent in the training of Deep Residual Networks''} \\ (supervised by \textbf {G.~Peyré} and \textbf{F-X.~Vialard})
+\textbf{Thesis}: ``Training deep neural networks: mathematical models and convergence results'', \\
+supervised by \textbf {G.~Peyré} and \textbf{F.-X.~Vialard}.
+}
+
+\cventry{2018 -- 2022}{\'Elève fonctionnaire}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}{}
+
+\cventry{2020 -- 2021}{M.Sc. Mathematics for Machine Learning and Data Science (MVA)}{\'ENS Paris-Saclay}{}{with honors}
+{
+\textbf{Thesis}: \textit{``Convergence properties of Gradient Descent in the training of Deep Residual Networks''}, \\
+supervised by \textbf {G.~Peyré} and \textbf{F-X.~Vialard}.
 }
 
 
-\cventry{2018--2019}{Bachelor degree in mathematics}{\'Ecole Normale Supérieure -- PSL}{Paris}{with honors}
+\cventry{2018 -- 2019}{Bachelor degree in mathematics}{\'Ecole Normale Supérieure -- PSL}{Paris}{with honors}
 {
-    \textbf{Thesis}: \textit{``Mean curvature flow, an introduction to geometrical flows''} (supervised by T.\,Ozuch)
+    \textbf{Thesis}: \textit{``Mean curvature flow, an introduction to geometrical flows''}, supervised by T.\,Ozuch.
 }
 
 %\cventry{2016--2018}{Scientific preparation for competitive exams}{Lycée Henri IV}{Paris}{}
@@ -72,13 +88,21 @@
 
 %\cventry{2016}{Scientific Baccalauréat}{Lycée Marie Curie}{Sceaux}{with honors}{German as european option}
 
+\section{Internships}
+
+\cventry{2022}{Statistical to computational gaps in Tensor PCA}{ETH, Mathematic Department}{Zürich}{}{supervised by \textbf{A.~Bandeira}}
+
+\cventry{2021}{Convergence and Implicit biases in training Deep Residual Networks}{\'ENS (DMA)}{Paris}{}{supervised by \textbf{G.~Peyré} and \textbf{F-X.~Vialard}}
+
+\cventry{2020}{Hydrodynamical models for red tides phenomena in Quell\'on's bay}{Center for Mathematical Modeling (CMM) - CNRS}{Santiago, Chile}{}{supervised by \textbf{C.~Conca}}
+
 \section{Teaching}
-\cventry{Since 2021}{Teaching assistant}{Paris Science Lettres (PSL)}{Paris}{}
+\cventry{2021 -- 2025}{Teaching assistant}{Paris Science Lettres (PSL)}{Paris}{}
 {
-	``Cycle Pluridisciplinaire d'\'Etudes Supérieure'' (CPES), undergrad.
+	``Cycle Pluridisciplinaire d'\'Etudes Supérieure'' (CPES).
 }
 
-\cventry{2018--2022}{Preparation for oral exams}{Lycée Henri IV}{Paris}{}{}
+\cventry{2018 -- 2022}{Preparation for oral exams}{Lycée Henri IV}{Paris}{}{}
 
 
 \section{Publications}
@@ -91,33 +115,27 @@
 \printbibliography[keyword={preprint}, heading=none]
 %\end{refsection}
 
-\section{Internships}
 
-\cventry{2022}{Statistical to computational gaps in Tensor PCA}{ETH, Mathematic Department}{Zürich}{supervised by \textbf{A.~Bandeira}}{}
-
-\cventry{2021}{Convergence and Implicit biases in training Deep Residual Networks}{\'ENS DMA - CNRS}{Paris}{supervised by \textbf{G.~Peyré} and \textbf{F-X.~Vialard}}{}
-
-\cventry{2020}{Hydrodynamical models for red tides phenomena in Quell\'on's bay}{Center for Mathematical Modeling (CMM) - CNRS}{Santiago, Chile}{supervised by \textbf{C.~Conca}}{}
 
 \clearpage
 
-\section{Skills}
+%\section{Skills}
 
-\setlength{\columnsep}{80pt}
-\begin{multicols}{2}
+%\setlength{\columnsep}{80pt}
+%\begin{multicols}{2}
 	
-	\subsection{Programming}
-	\cvitemwithcomment{Python}{Scientific computing and machine learning}{}
-	\cvitemwithcomment{Github}{Developing open source code}{}
+	%\subsection{Programming}
+	%\cvitemwithcomment{Python}{Scientific computing and machine learning}{}
+	%\cvitemwithcomment{Github}{Developing open source code}{}
 	
-	\vfill\null
-	\columnbreak
+	%\vfill\null
+	%\columnbreak
 	
-	\subsection{Languages}
-	\cvlanguage{French}{Native language}{}
-	\cvlanguage{English}{Professional skills}{}
+	%\subsection{Languages}
+	%\cvlanguage{French}{Native language}{}
+	%\cvlanguage{English}{Professional skills}{}
 	
-\end{multicols}
+%\end{multicols}
 
 \section{Conferences}
 
