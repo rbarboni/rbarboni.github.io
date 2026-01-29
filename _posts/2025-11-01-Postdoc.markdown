@@ -6,4 +6,4 @@ date:   2025-11-01 11:58:50 +0100
 
 I am thrilled to announce that I started a postdoc at the [Bocconi Institute for Data Science and Analytics (BIDSA)](https://bidsa.unibocconi.eu/).
 
-I will be mentored by [Giacomo Zanella](https://sites.google.com/site/gzanellawebpage/home) as part of the ERC project *"Provable Scalability for high-dimensional Bayesian Learning"*.
+I will be mentored by [Giacomo Zanella](https://sites.google.com/site/gzanellawebpage/home) as part of the ERC project ["Provable Scalability for high-dimensional Bayesian Learning"](https://bidsa.unibocconi.eu/erc-starting-grant-2022-101076564-prsc-hdbayle-provable-scalability-high-dimensional-bayesian?_gl=1*qhrac8*_up*MQ..*_ga*OTQxMDMyMDE2LjE3Njk2ODE3ODk.*_ga_FMVFTTB8Q4*czE3Njk2ODE3ODgkbzEkZzEkdDE3Njk2ODE4MjQkajI0JGwwJGgw).
