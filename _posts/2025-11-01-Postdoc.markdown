@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Postdoc"
+date:   2025-11-01 11:58:50 +0100
+---
+
+I am thrilled to announce that I started a postdoc at the [Bocconi Institute for Data Science and Analytics (BIDSA)](https://bidsa.unibocconi.eu/).
+
+I will be mentored by [Giacomo Zanella](https://sites.google.com/site/gzanellawebpage/home) as part of the ERC project *"Provable Scalability for high-dimensional Bayesian Learning"*.
