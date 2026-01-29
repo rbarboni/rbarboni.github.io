@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Ph.D. Defense"
+date:   2025-10-10 11:58:50 +0100
+---
+
+I succesfully defended my Ph.D. whose thesis is entitled: *"Training deep neural networks: mathematical models and convergence results"*.
+
+My thesis manuscript can be found [here](../files/Manuscrit_these.pdf).
+
+The slides of my defense are available [here](../files/slides_soutenance).
