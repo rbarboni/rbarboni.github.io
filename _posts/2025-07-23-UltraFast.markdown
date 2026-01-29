@@ -8,7 +8,7 @@ We published a new preprint on ["Ultra-fast feature learning for the training of
 
 Considering a *Variable Projection* [[1]](#VarPro) or *two-timescale learning* [[2]](#TwoTimeScale) strategy, we show that during training, the distribution of inner weights of two-layer neural networks evolve according to an *ultra-fast diffusion equation* [[3]](#UltraFast).
 
-![](diffusion_animation.gif)
+![](../files/diffusion_animation.gif)
 
 #### References
 
