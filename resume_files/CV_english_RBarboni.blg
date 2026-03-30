@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'CV_english_RBarboni.blg'
-[21] biber-darwin:340> INFO - === Mer jul 23, 2025, 13:11:54
+[21] biber-darwin:340> INFO - === Lun mar 30, 2026, 22:35:26
 [27] Biber.pm:420> INFO - Reading 'CV_english_RBarboni.bcf'
-[48] Biber.pm:991> INFO - Using all citekeys in bib section 0
-[53] Biber.pm:4463> INFO - Processing section 0
+[49] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[54] Biber.pm:4463> INFO - Processing section 0
 [57] Biber.pm:4654> INFO - Looking for bibtex file 'CV_publications.bib' for section 0
-[57] bibtex.pm:1713> INFO - LaTeX decoding ...
-[59] bibtex.pm:1519> INFO - Found BibTeX data source 'CV_publications.bib'
-[75] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[75] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[75] Biber.pm:4283> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[75] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[76] bbl.pm:676> INFO - Writing 'CV_english_RBarboni.bbl' with encoding 'UTF-8'
-[77] bbl.pm:779> INFO - Output to CV_english_RBarboni.bbl
+[58] bibtex.pm:1713> INFO - LaTeX decoding ...
+[60] bibtex.pm:1519> INFO - Found BibTeX data source 'CV_publications.bib'
+[78] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[78] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[78] Biber.pm:4283> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[78] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[79] bbl.pm:676> INFO - Writing 'CV_english_RBarboni.bbl' with encoding 'UTF-8'
+[80] bbl.pm:779> INFO - Output to CV_english_RBarboni.bbl
