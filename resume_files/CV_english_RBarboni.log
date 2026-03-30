@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  29 JAN 2026 09:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  30 MAR 2026 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1258,7 +1258,7 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.83pt have occurred.
 
 Package rerunfilecheck Info: File `CV_english_RBarboni.out' has not changed.
-(rerunfilecheck)             Checksum: 43216CC9355A3B06AC70AE216DE35BA6;1048.
+(rerunfilecheck)             Checksum: 9716E705DEB5B2B3EC1CF42783C36B0B;1058.
 Package logreq Info: Writing requests to 'CV_english_RBarboni.run.xml'.
 \openout1 = `CV_english_RBarboni.run.xml'.
 
@@ -1284,7 +1284,7 @@ cm-super/sfss1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm
 -super/sfss3583.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s
 uper/sfsx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup
 er/sfsx1095.pfb>
-Output written on CV_english_RBarboni.pdf (2 pages, 182957 bytes).
+Output written on CV_english_RBarboni.pdf (2 pages, 183540 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
