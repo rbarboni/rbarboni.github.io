@@ -7,6 +7,9 @@ permalink: /publications/
 Here is a list of my publications, you can also check my [Google Scholar](https://scholar.google.com/citations?user=tEu2ONgAAAAJ&hl=en&oi=ao).
 
 ## Preprints
+- ["Hamiltonian dynamics for sampling on discrete spaces"](https://arxiv.org/abs/2608.17961), **R. B.**, S. Grazzi, G. Zanella (2026).
+
+- ["Training Infinitely Deep and Wide Transformers"](https://arxiv.org/abs/2605.17660), **R. B.**, T. Furuya, M. V. de Hoop, G. Peyré (2026).
 
 - ["Ultra-fast feature learning for the training of two-layer neural networks in the two-timescale regime"](https://arxiv.org/abs/2504.18208), **R. B.**, G. Peyré, F.-X. Vialard (2025).
 
