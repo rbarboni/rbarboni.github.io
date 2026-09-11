@@ -19,6 +19,81 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{barboni2026hamiltonian}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8e14cef2d470860ab12397cbad6d7746}{%
+           family={\textbf{R.\bibnamedelimi B.}},
+           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e50050e6c03e6dbad5ab67e19b429289}{%
+           family={Grazzi},
+           familyi={G\bibinitperiod},
+           given={Sebastiano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa4061cd3bd6560d9120ed52296280ca}{%
+           family={Zanella},
+           familyi={Z\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{44599419b92253ff2b3dba79a7791eb6}
+      \strng{fullhash}{44599419b92253ff2b3dba79a7791eb6}
+      \strng{fullhashraw}{44599419b92253ff2b3dba79a7791eb6}
+      \strng{bibnamehash}{44599419b92253ff2b3dba79a7791eb6}
+      \strng{authorbibnamehash}{44599419b92253ff2b3dba79a7791eb6}
+      \strng{authornamehash}{44599419b92253ff2b3dba79a7791eb6}
+      \strng{authorfullhash}{44599419b92253ff2b3dba79a7791eb6}
+      \strng{authorfullhashraw}{44599419b92253ff2b3dba79a7791eb6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2608.17961}
+      \field{title}{Hamiltonian dynamics for sampling on discrete spaces}
+      \field{year}{2026}
+      \true{nocite}
+      \keyw{preprint}
+    \endentry
+    \entry{barboni2026training}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=8e14cef2d470860ab12397cbad6d7746}{%
+           family={\textbf{R.\bibnamedelimi B.}},
+           familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3474b8d7a5b42215ebf72ee6dc99730c}{%
+           family={Hoop},
+           familyi={H\bibinitperiod},
+           given={Maarten\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=2f257bf2a82d5055682e9efc8b0da750}{%
+           family={Furuya},
+           familyi={F\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8381a1d2d66d734a8454d63ac3344f53}{%
+           family={Peyré},
+           familyi={P\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d7909075bc10ca95bdafaa320b3a436}
+      \strng{fullhash}{1bccbee3a831704481355f453882e7d9}
+      \strng{fullhashraw}{1bccbee3a831704481355f453882e7d9}
+      \strng{bibnamehash}{1bccbee3a831704481355f453882e7d9}
+      \strng{authorbibnamehash}{1bccbee3a831704481355f453882e7d9}
+      \strng{authornamehash}{5d7909075bc10ca95bdafaa320b3a436}
+      \strng{authorfullhash}{1bccbee3a831704481355f453882e7d9}
+      \strng{authorfullhashraw}{1bccbee3a831704481355f453882e7d9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2605.17660}
+      \field{title}{Training Infinitely Deep and Wide Transformers}
+      \field{year}{2026}
+      \true{nocite}
+      \keyw{preprint}
+    \endentry
     \entry{barboni2025ultra}{article}{}{}
       \name{author}{3}{}{%
         {{hash=8e14cef2d470860ab12397cbad6d7746}{%
