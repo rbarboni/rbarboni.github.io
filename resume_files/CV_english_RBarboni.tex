@@ -1,5 +1,5 @@
 % !TeX spellcheck = en_US
-\documentclass[11pt,a4paper,sans]{moderncv}      
+\documentclass[11t,a4paper,sans]{moderncv}      
 % moderncv themes
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -27,10 +27,11 @@
 \usepackage{comment}
 
 % adjust the page margins
-\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+\usepackage[top=2.5cm, bottom=2.5cm, left=1.8cm, right=1.8cm]{geometry}
 %\usepackage[scale=0.75]{geometry}
 \setlength{\hintscolumnwidth}{2.4cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
 
 
 
@@ -49,8 +50,12 @@
 %\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=tEu2ONgAAAAJ}{Scholar}}
 
 \begin{document}
-
+	
 \makecvtitle
+	
+\setlength{\parskip}{0.5em}
+
+
 
 
 % Marge négative entre le titre et la partie expérience, pour gagner de la place
@@ -58,51 +63,60 @@
 
 \section{Positions}
 
-\cventry{2025 -- present}{Postdoctoral fellow}{Bocconi University, Institute for Data Science and Analytics (BIDSA)}{Milan}{}{mentored by \textbf{G.~Zanella}.}
+\cventry{2025 -- present}{Postdoctoral fellow}{Bocconi University, Institute for Data Science and Analytics}{Milan}{}{mentored by \textbf{G.~Zanella}.}
 
 \section{Education}
 
-\cventry{2022 -- 2025}{Ph.D. in Mathematics}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}
+\cventry{2022 -- 2025}{Ph.D. in Mathematics}{\'Ecole Normale Supérieure, Department of Mathematics}{Paris}{}
 {
 \textbf{Thesis}: ``Training deep neural networks: mathematical models and convergence results'', \\
 supervised by \textbf {G.~Peyré} and \textbf{F.-X.~Vialard}.
 }
 
-\cventry{2018 -- 2022}{\'Elève fonctionnaire}{\'Ecole Normale Supérieure -- PSL, Department of Mathematics}{Paris}{}{}
+\cventry{2018 -- 2022}{\'Elève fonctionnaire}{\'Ecole Normale Supérieure, Department of Mathematics}{Paris}{}{}
 
-\cventry{2020 -- 2021}{M.Sc. Mathematics for Machine Learning and Data Science (MVA)}{\'ENS Paris-Saclay}{}{with honors}
+\cventry{2020 -- 2021}{M.Sc. Mathematics for Learning and Vision (MVA)}{\'ENS Paris-Saclay}{}{with honors}
 {
 \textbf{Thesis}: \textit{``Convergence properties of Gradient Descent in the training of Deep Residual Networks''}, \\
 supervised by \textbf {G.~Peyré} and \textbf{F.-X.~Vialard}.
 }
 
 
-\cventry{2018 -- 2019}{B.Sc. in Mathematics}{\'Ecole Normale Supérieure -- PSL}{Paris}{with honors}
-{
-    %\textbf{Thesis}: \textit{``Mean curvature flow, an introduction to geometrical flows''}, supervised by ~\textbf{T.~Ozuch}.
-}
+\cventry{2018 -- 2019}{B.Sc. in Mathematics}{\'Ecole Normale SupérieureL}{Paris}{with honors}{}
+%{ \textbf{Thesis}: \textit{``Mean curvature flow, an introduction to geometrical flows''}, supervised by ~\textbf{T.~Ozuch}.
+%}
 
-%\cventry{2016--2018}{Scientific preparation for competitive exams}{Lycée Henri IV}{Paris}{}
-%{Mathematics, Physics, Computer science (MPSI-MP*)}
+\cventry{2016--2018}{``Classes préparatoires''}{Lycée Henri IV}{Paris}{}
+{Mathematics, Physics, Computer science (MPSI-MP*)}
 %{MPSI then MP*, optional courses in computer science}
 
 %\cventry{2016}{Scientific Baccalauréat}{Lycée Marie Curie}{Sceaux}{with honors}{German as european option}
 
-\section{Internships}
+\section{Experiences}
 
-\cventry{2022}{Statistical to computational gaps in Tensor PCA}{ETH, Mathematics Department}{Zürich}{}{supervised by \textbf{A.~Bandeira}}
+\cventry{2022}{Research internship}{ETH, Mathematics Department}{Zürich}{}{``Statistical to computational gaps in Tensor PCA'', supervised by \textbf{A.~Bandeira}}
 
-\cventry{2021}{Convergence and implicit biases in training Deep Residual Networks}{\'ENS (DMA)}{Paris}{}{supervised by \textbf{G.~Peyré} and \textbf{F.-X.~Vialard}}
+%\cventry{2021}{Convergence and implicit biases in training Deep Residual Networks}{\'ENS (DMA)}{Paris}{}{supervised by \textbf{G.~Peyré} and \textbf{F.-X.~Vialard}}
 
-\cventry{2020}{Hydrodynamical models for red tide phenomena in Quell\'on's bay}{Center for Mathematical Modeling (CMM) - CNRS}{Santiago, Chile}{}{supervised by \textbf{C.~Conca}}
+\cventry{2020}{Research internship}{Center for Mathematical Modeling (CMM)}{Santiago, Chile}{}{``Hydrodynamical models for red tide phenomena in Quell\'on's bay'', supervised by \textbf{C.~Conca}}
 
 \section{Teaching}
-\cventry{2021 -- 2025}{Teaching assistant}{Université Paris Sciences et  Lettres (PSL)}{Paris}{}
+
+\cventry{2023 -- 2025}{Teaching assistant}{Université Paris Sciences et  Lettres (PSL)}{Paris}{}
 {
-	``Cycle Pluridisciplinaire d'\'Etudes Supérieures'' (CPES), 1st and 2nd year.
+	``Cycle Pluridisciplinaire d'\'Etudes Supérieures'' (CPES), Mathematics, 2nd year.
+}
+
+\cventry{2021 -- 2023}{Teaching assistant}{Université Paris Sciences et  Lettres (PSL)}{Paris}{}
+{
+	``Cycle Pluridisciplinaire d'\'Etudes Supérieures'' (CPES), Mathematics, 1st year.
 }
 
 \cventry{2018 -- 2022}{Preparation for oral exams}{Lycée Henri IV}{Paris}{}{}
+
+\section{Awards}
+
+\cventry{2022}{Ph.D. fellowship}{PSL graduate program in Mathematics and Applications}{Paris}{}{}
 
 \clearpage
 
@@ -160,6 +174,20 @@ supervised by \textbf {G.~Peyré} and \textbf{F.-X.~Vialard}.
 	\item Workshop on  Optimal Transport, from Theory to Applications, March 2024, Berlin, Germany
 	\item Neural Information Processing Systems (NeurIPS), November 2022, New Orleans, USA
 	\item International Conference on Curves and Surfaces, June 2022, Arcachon, France
+\end{itemize}
+
+\clearpage
+
+\section{Community}
+
+\subsection{Reviewer}
+\begin{itemize}
+	\item Communications on Pure and Applied Mathematics,
+	\item Annales de l'Institut Henri Poincaré,
+	\item Applied and Computational Harmonic Analysis,
+	\item ESAIM: Control, Optimisation and Calculus of Variations,
+	\item Journal of Machine Learning Research,
+	\item Machine learning conferences: Neurips, ICML.
 \end{itemize}
 
 
