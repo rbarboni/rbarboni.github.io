@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  21 SEP 2026 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  21 SEP 2026 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,6 +1242,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
 /texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
+Overfull \hbox (4.83557pt too wide) in paragraph at lines 126--127
+[]  [] 
+ []
+
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1292,7 +1296,7 @@ cm-super/sfss1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm
 -super/sfss3583.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-s
 uper/sfsx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-sup
 er/sfsx1095.pfb>
-Output written on CV_english_RBarboni.pdf (3 pages, 188280 bytes).
+Output written on CV_english_RBarboni.pdf (3 pages, 191976 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  123 compressed objects within 2 object streams
